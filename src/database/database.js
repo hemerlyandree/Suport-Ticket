@@ -52,7 +52,7 @@ export class Database {
         ...data
       }
 
-      this.#persist
+      this.#persist()
     }
   }
 }
